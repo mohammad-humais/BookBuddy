@@ -1,19 +1,70 @@
-# BookBuddy
+# Getting Started with Create React App
 
-BookBuddy is a personal book tracking website developed using React.js, designed to help users manage their reading progress and organize their bookshelf. Here are the key functionalities:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Login/Signup:** Users can create an account or log in to access their bookshelf and track their reading progress.
+## Available Scripts
 
-**Bookshelf Sections:** The home page features three sections:
-    (i) Currently Reading: Displays books that the user is currently reading.
-    (ii) Completed: Shows books that the user has finished reading.
-    (iii) Planning to Read: Lists books that the user plans to read in the future.
+In the project directory, you can run:
 
-**Book Status Management:** Users can easily change the status of a book:
-Mark as Currently Reading: Move a book from any section to "Currently Reading" when they start reading it.
-Mark as Completed: Change the status of a book from "Currently Reading" or "Planning to Read" to "Completed" when they finish reading it.
-Mark as Planning to Read: Add new books to the bookshelf and mark them as "Planning to Read" upon addition.
-  
-**Adding New Books:** Users can add new books to their bookshelf, specifying the book's title, author, and optionally, its cover image. During the addition process, users can also select the current status of the book as "Planning to Read," "Currently Reading," or "Completed."
+### `npm start`
 
-**Removing/Deleting Books:** Users have the option to remove or delete books from any section of their bookshelf. This allows them to declutter their book list or remove books they no longer wish to track.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
