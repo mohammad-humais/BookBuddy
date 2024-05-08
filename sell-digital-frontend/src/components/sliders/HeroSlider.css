@@ -1,0 +1,162 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+  }
+  
+  .first-half1 {
+    width: 75%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .second-half {
+    width: 25%;
+    height: 100%;
+    /* background-color: #833AB4; */
+        /* background: rgb(116, 34, 34); */
+        /* background-image: url('./bg1.jpg'); */
+        /* background-repeat: no-repeat; */
+
+        /* background-image: radial-gradient( circle at 110% center, rgb(153 21 0), rgba(255, 0, 0, 0) 92% ); */
+        /* background-image: linear-gradient(90deg, #f5f5f5, #7a0000); */
+
+  }
+  
+  .first-half-content {
+    height: 100%;
+    padding-left: 14%;
+    padding-top: 10%;
+    /* background-image: radial-gradient( circle at 0% center, rgb(254 217 211), rgba(255, 0, 0, 0) 40% ); */
+    background-image: radial-gradient( circle at 0% center, rgb(242, 169, 158), rgba(255, 0, 0, 0) 40% );
+
+  }
+
+  .main-heading {
+    font-size: 70px;
+     color: #ad0000;
+  }
+
+  .sub-heading {
+    font-size: 41px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .bullet-list {
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 1.8;
+    font-size: 18px;
+  }
+  
+  .bullet-list svg {
+    margin-bottom: 5px;
+  }
+  
+  .heroSilder-buttons {
+    margin-top: 20px;
+  }
+  
+  .blue-button {
+    margin-left: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    height: 43px;
+    font-weight: bold;
+  }
+  
+  .red-button {
+    margin-left: 18px;
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 10px;
+    cursor: pointer;
+    height: 43px;
+    font-weight: bold;
+  }
+  
+  .second-falf-content {
+    height: 40%;
+    padding-top: 20%;
+    padding-left: 16%;
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+
+.myclass {
+  padding-top: 50px;
+  height:100%;
+  width:110%;
+  background-color: pink;
+  margin-top: 15%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-left: -55%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.small-slider {
+  height: 110px;
+  width:250px;
+  background-color: red;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+@media (max-width: 1250px) {
+  .first-half1 {
+    width: 100%;
+  }
+  .second-half{
+    width: 0;
+  }
+  .display-none {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-heading {
+    font-size: 50px;
+  }
+  
+  .sub-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-heading {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .sub-heading {
+    font-size: 25px;
+  }
+
+  .bullet-list {
+    font-size: 15px;
+  }
+
+  .first-half-content {
+    padding-left: 8%;
+  }
+  .red-button {
+    margin-left: 1px;
+  }
+}
+
+

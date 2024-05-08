@@ -1,0 +1,38 @@
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.Icon-props {
+    font-size: 1.5rem;
+}
+
+.nav_actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1rem !important;
+}
+
+.item-hover {
+    text-decoration: none;
+}
+.item-hover:hover {
+    color:rgb(240, 239, 239)
+}
+
+.light-color {
+    color: var(--text-color);
+}
+
+
+
+@media (max-width: 450px) {
+    .header-display-none {
+        display: none;
+    }
+}

@@ -1,0 +1,99 @@
+.update-profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 235, 235);
+  }
+  
+  .gray-section {
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  .update-profile-heading {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .name-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .name-fields input {
+    flex: 1;
+    border: 1px solid #ccc;
+  }
+  
+  .password-section {
+    margin-top: 40px;
+  }
+  
+  .password-heading {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .password-fields {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .half-width {
+    width: 50%;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .same-line{
+    display: flex;
+    /* align-items: flex-start; */
+  }
+  
