@@ -6,7 +6,6 @@ import { changeStatus,deleteBooks } from "../../utils/Endpoint";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const BookCard = (props) => {
-  console.log("props", props);
   const [bookTag, setBookTag] = useState({
     bookTag: props?.tag,
     bookId: props?._id 
